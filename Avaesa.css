@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top{
+  z-index: 20;
+  position: sticky;
+  top: 1px;
+}
+
+.nav img{
+    cursor: pointer;
+    position: relative;
+    right: -220px; top: -5px;
+    height: 50px;
+}
+
+.btn-two{
+    position: relative;
+    color: white; background-color: transparent;
+    right: -800px;
+    width: 40px; height: 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.btn-two:hover{
+    background-color: transparent;
+    color: white;
+    border: solid 2px white;
+    cursor: pointer;
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.dropbtn {
+    cursor: pointer;
+    background-color: transparent;
+    color:white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    transition: 0.5s;
+  }
+  .dropbtn:hover{
+    color: gray;
+  }
+  
+  .dropdown {
+    list-style: none;
+    z-index: 5;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:gray; width: 140px;} 
+
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: transparent}
+  .header{
+      background-color: rgb(19,26,39);
+      height: 10vh;}
+.header{
+    background-color: rgb(19,26,39);
+    height: 10vh;
+}
+
+.content-one{
+    background-image:url(https://www.avaesa.com/img/header.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.content-one img{
+    position: relative;
+    top: 50px;
+}
+.content-one img:hover{
+    cursor: pointer;
+    animation-iteration-count: infinite;
+    animation: shake 5s;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+  .line{
+    display: flex;
+    justify-content:center;
+    height: 10vh; border: solid 2px black;
+    align-items: center;
+    background-color: black;
+  }
+  .line h1{
+    color: white;
+    font-size: xx-large;
+  }
+
+  .container p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    line-height: 40px;
+    width: 70vw;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+  }
+  .container {
+    height: 60vh;
+    background-image: url(https://cdn5.vectorstock.com/i/1000x1000/72/39/abstract-blue-crystal-background-vector-28387239.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hr-one {
+    width: 50vw;
+    height: 5px;
+    background-color: black;
+  }
+ 
+  .info-one {
+    color: white;
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Main-three{
+    background-image: url(https://img.freepik.com/premium-photo/white-crystal-background-with-triangles-3d-rendering_158469-1163.jpg?w=2000);
+    height: 85vh;
+  }
+  .boxes-one  img{
+    margin: 0px 20px;
+    width: 250px;
+    height: 200px;
+  }
+  .boxes-two  img{
+    margin: 0px 20px;
+    width: 250px;
+    height: 200px;
+  }
+  .boxes-one{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxes-two{
+    position: relative;
+    top: -40px;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .okay{
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .okay:hover{
+    border-radius: 50px;
+    height: 200px;
+    width: 300px;
+  }
+  .gg-line{
+    color: white;
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .videos{
+    height: 100vh;
+  }
+  .video{
+    background-image: url(https://files.123freevectors.com/wp-content/original/125747-black-crystal-background.jpg);
+    background-repeat: no-repeat;
+    /* width: 100vw; */
+    height: 100vh;
+    background-size: cover;
+  }
+  .bck-video{
+    position: relative;
+    top: 50px;
+    width: 50vw;
+    height: 50vh;
+  }
+  .bck-video-one{
+    position: relative;
+    top: -331px; right: -700px;
+    width: 50vw;
+    height: 50vh;
+  }
+  .text-me{
+    position: relative;
+    top: -300px; left: 150px;
+    color: white;
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+  }
+  .oo{
+    cursor: pointer;
+    position: relative;
+    right: -100px;
+    transition: 0.5s;
+  }
+  .hh{
+    cursor: pointer;
+    position: relative;
+    left: -270px;
+    transition: 0.5s;
+  }
+  .oo:hover{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: solid 1px white;
+  }
+  .hh:hover{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: solid 1px white;
+  }
+  .oo a{
+    text-decoration: none;
+    color: white;
+  }
+  .hh a{
+    text-decoration: none;
+    color: white;
+  }
+  .footer{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 20vh;
+  }
+  .lol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247,247,247);
+    height: 40px;
+  }
+  .haha p{
+    position: relative;
+    top: -50px; left: 665px;
+  }
+  .box-ek{
+    position: relative;
+    left: 350px;
+  }
+  .box-do{
+    position: relative;
+    left: 550px;
+  }
+  .box-teen{
+    position: relative;
+    left: 750px;
+  }
+  .box-char{
+    position: relative;
+    left: 950px;
+  }
+  .rr-one p{
+    position: relative;
+    top: -40px; left: 300px;
+    color: white;
+  }
+  .rr-do p{
+    position: relative;
+    top: -62px; left: 550px;
+    color: white;
+  }
+  .rr-teen p{
+    position: relative;
+    top: -83px; left: 810px;
+    color: white;
+  }
+  .rr-char p{
+    position: relative;
+    top: -105px; left: 1050px;
+    color: white;
+  }
+  .haha{
+    color: white;
+    background-color: black 
+   }
+   .love img{
+    position: relative;
+    top: -240px; left: 665px;
+   }
