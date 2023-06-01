@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="1.js">
+    <title>Code-Crafters</title>
+</head>
+<body>
+ <section class="one">
+  <div class="header">
+    <ul> 
+      <li><a href="">Home</a></li>
+      <li><a href="">Contact Us</a></li>
+      <li><a href="">About Us</a></li>
+      <li><a href="">Services</a></li>
+      <li><a href="">Pricing</a></li>
+    </ul>
+  </div>
+  <section class="two">
+    <div class="left">
+      <h1>Hey, I Am <span class="yash">Yash Parmar</span></h1>
+      <p> <span class="para">A Frontend focused Web Developer,</span> building the Frontend of Websites and <br> Applications that leads to the success of the overall product</p>
+      <button>Let's Work Together</button>
+    </div>
+  </section>
+ </section>
+ <section class="three">
+  <div class="header-three">
+    <!-- <h1>About Me</h1> -->
+  </div>
+  <section class="four">
+    <div class="left-tt">
+      <h1>Get to know me!</h1>
+      <p>I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section. <br> <br> I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin where I post useful content related to Web Development and Programming <br> <br> I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
+      <button>Contact</button>
+    </div>
+    <div class="right-tt">
+      <h1>My Skills</h1>
+      <div class="skills">
+        <div class="skills-s">Html</div>
+        <div class="skills-s">CSS</div>
+        <div class="skills-s">JavaScript</div>
+        <div class="skills-s">React</div>
+        <div class="skills-s">SASS</div>
+        <div class="skills-s">GIT</div>
+        <div class="skills-s">Github</div>
+        <div class="skills-s">Responsive Design</div>
+        <div class="skills-s">SEO</div>
+        <div class="skills-s">Terminal</div>
+        <div class="skills-s">Express Basics</div>
+        <div class="skills-s">SQL Basics</div>
+      </div>
+    </div>
+  </section>
+ </section>
+ <section class="five">
+  <div class="five-text">
+    <h1>Send me a message!</h1>
+  </div>
+  <div class="five-para">
+    <p>Got a question or proposal, or just want <br>
+      to say hello? Go ahead.</p>
+  </div>
+  <hr class="hihi">
+  <div class="five-contact">
+    <form id="enquiry-form" method="post" action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Send">
+    </form>
+  </div>
+ </section>
+ <section class="footer">
+  <div class="footer-left">
+    <h1>Yash Parmar</h1>
+    <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+    <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+  </div>
+  <div class="footer-right">
+    <h1>Social</h1>
+   <div class="incons">
+    <i class="gg-instagram"></i>
+    <i class="gg-facebook"></i>
+    <i class="gg-twitter"></i>
+    <i class="gg-google"></i>
+   </div>
+  </div>
+ </section>
+ <hr class="hihi-two">
+ <section class="nice">
+  <p>© Copyright 2023. Made by Yash Parmar</p>
+ </section>
+</body>
+</html> 
